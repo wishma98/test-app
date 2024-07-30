@@ -62,6 +62,7 @@ const useFetch = (query) => {
     setIsLoading();
     try {
       //   const res = await axios.request(body);
+      // 'sss'
       let res = await kbsGetAllStorebyCompanyId(query);
       console.log("response:::", res);
       if (res && res.data && res.data.status) {

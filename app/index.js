@@ -5,13 +5,12 @@ import {
   ScreenHeaderBtn,
   Welcome,
 } from "../components";
-import { Stack, useRouter } from "expo-router";
+import { Stack } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { ScrollView } from "react-native-gesture-handler";
 import { View } from "react-native";
 
 const Home = () => {
-  const router = useRouter();
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
       <Stack.Screen
